@@ -1,8 +1,8 @@
-import EosApiService from './eos-api-service';
-import EosApiDataToEosPeriodDtoMapper from './eos-api-object-to-eos-period-dto-mapper';
-import BitfinnexApiService from './bitfinnex-api-service';
-import BitfinnexApiDataToPriceDtoMapper from './bitfinnex-api-data-to-eos-period-dto-mapper';
-import EosEthArbitrageService from './eos-eth-arbirage-service';
+import EosApiService from './lib/eos/eos-api-service';
+import EosApiDataToEosPeriodDtoMapper from './lib/eos/eos-api-object-to-eos-period-dto-mapper';
+import BitfinnexApiService from './lib/exchanges/bitfinnex-api-service';
+import BitfinnexApiDataToPriceDtoMapper from './lib/exchanges/bitfinnex-api-data-to-eos-period-dto-mapper';
+import EosEthArbitrageService from './lib/arbitrage/eos-eth-arbirage-service';
 
 const eosApiDataToEosPeriodDtoMapper = new EosApiDataToEosPeriodDtoMapper();
 const eosApiService = new EosApiService(eosApiDataToEosPeriodDtoMapper);
