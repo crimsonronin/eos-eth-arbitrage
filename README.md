@@ -5,6 +5,11 @@ npm install
 npm start
 ```
 
+##For CSV output use
+```
+npm run csv
+```
+
 # Output
 
 Something like the following will show:
