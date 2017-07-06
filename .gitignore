@@ -39,3 +39,4 @@ apps/podium/vendor/isomorphic/
 lang/rv/*
 nohup.out
 .build-manifest.json
+*.csv
